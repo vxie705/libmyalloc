@@ -1,0 +1,41 @@
+# Archivos objeto compilados
+*.obj
+*.o
+
+# Ejecutables
+*.exe
+*.out
+
+# Librerias generadas
+*.lib
+*.a
+*.dll
+*.dylib
+
+# Archivos del proyecto generados
+myalloc.lib
+myalloc_dbg.lib
+myalloc.obj
+myalloc_dbg.obj
+allocator.exe
+example.exe
+main.obj
+example_usage.obj
+
+# Directorio de salida de build (si usas out/)
+out/
+build/
+
+# Archivos de Visual Studio / IDE
+*.user
+*.suo
+*.sdf
+.vs/
+.vscode/
+*.swp
+*.swo
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
+Desktop.ini
